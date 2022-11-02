@@ -36,7 +36,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
-    if: ${{ false }}
+    if: ${{ false }} # delete this line to run
 
     steps:
       - name: Checkout
