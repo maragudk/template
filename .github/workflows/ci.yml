@@ -36,6 +36,7 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    if: ${{ github.triggering_actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout
