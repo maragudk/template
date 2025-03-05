@@ -1,5 +1,6 @@
 # template
 
+[![Docs](https://pkg.go.dev/badge/maragu.dev/template)](https://pkg.go.dev/maragu.dev/template)
 [![CI](https://github.com/maragudk/template/actions/workflows/ci.yml/badge.svg)](https://github.com/maragudk/template/actions/workflows/ci.yml)
 
 Made with ✨sparkles✨ by [maragu](https://www.maragu.dev/).
