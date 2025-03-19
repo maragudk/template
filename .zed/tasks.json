@@ -25,5 +25,11 @@
     "label": "Benchmark $ZED_SYMBOL",
     "command": "go test -bench $ZED_SYMBOL $ZED_CUSTOM_GO_PACKAGE",
     "tags": ["go-benchmark"]
+  },
+  {
+    "label": "Run",
+    "command": "go run $ZED_CUSTOM_GO_PACKAGE",
+    "tags": ["go-run"],
+    "allow_concurrent_runs": true
   }
 ]
