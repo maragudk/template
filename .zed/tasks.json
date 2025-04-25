@@ -4,6 +4,10 @@
     "command": "go test -shuffle on ./..."
   },
   {
+    "label": "Test $ZED_CUSTOM_GO_PACKAGE",
+    "command": "go test -shuffle on $ZED_CUSTOM_GO_PACKAGE"
+  },
+  {
     "label": "Benchmark",
     "command": "go test -bench . -shuffle on ./..."
   },
